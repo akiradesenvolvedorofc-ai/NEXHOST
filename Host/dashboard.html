@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>NEXHOST - Client Area</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar Simplificada -->
+  <header class="navbar" style="padding: 15px 5%;">
+    <div class="logo" style="font-size: 1.2rem; font-weight: 800;"><span style="color: #7c3aed;">N</span>EXHOST</div>
+    <nav><a href="#">Home</a><a href="#">Services</a><a href="#">Billing</a><a href="#">Support</a></nav>
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <span style="color: var(--text-muted); font-size: 0.9rem;">John Doe</span>
+      <div class="avatar" style="width: 30px; height: 30px; font-size: 0.8rem;">JD</div>
+    </div>
+  </header>
+
+  <div class="dashboard-layout">
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+      <ul class="sidebar-menu" style="margin-top: 20px;">
+        <li><a href="#" class="active">🏠 Client Area</a></li>
+        <li><a href="#">📦 Meus Serviços</a></li>
+        <li><a href="#">🌐 Domínios</a></li>
+        <li><a href="#">💳 Faturamento</a></li>
+        <li><a href="#">🎧 Suporte</a></li>
+        <li><a href="#">🤝 Afiliados</a></li>
+        <li><a href="#">👤 Conta</a></li>
+      </ul>
+      
+      <!-- Box de Upgrade -->
+      <div style="padding: 20px; margin: 20px; background: rgba(124, 58, 237, 0.1); border-radius: 12px; border: 1px solid rgba(124, 58, 237, 0.3);">
+        <h4 style="font-size: 0.9rem; margin-bottom: 10px;">Faça Upgrade do seu Host</h4>
+        <p style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 15px;">Obtenha mais performance e suporte premium.</p>
+        <button class="btn btn-primary" style="width: 100%; font-size: 0.8rem; padding: 10px;">Ver Planos</button>
+      </div>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+      <h1 style="font-size: 2rem; margin-bottom: 5px;">Bem-vindo de volta, John</h1>
+      <p style="color: var(--text-muted); margin-bottom: 30px;">Gerencie seus serviços de hospedagem, faturas e suporte em um só lugar.</p>
+
+      <!-- Cards de Estatísticas -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon bg-purple">📦</div>
+          <div>
+            <h2 style="font-size: 1.5rem;">3</h2>
+            <p style="color: var(--text-muted); font-size: 0.8rem;">Serviços Ativos</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon bg-red">🧾</div>
+          <div>
+            <h2 style="font-size: 1.5rem;">2</h2>
+            <p style="color: var(--text-muted); font-size: 0.8rem;">Faturas em Aberto</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon bg-blue">💬</div>
+          <div>
+            <h2 style="font-size: 1.5rem;">1</h2>
+            <p style="color: var(--text-muted); font-size: 0.8rem;">Ticket Aberto</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon bg-green">💰</div>
+          <div>
+            <h2 style="font-size: 1.5rem;">R$ 0,00</h2>
+            <p style="color: var(--text-muted); font-size: 0.8rem;">Crédito na Conta</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid inferior -->
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px;">
+        
+        <!-- Coluna Esquerda -->
+        <div>
+          <!-- Meus Serviços -->
+          <div class="panel-box">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <h3>Seus Serviços</h3>
+              <a href="#" style="color: #a78bfa; font-size: 0.85rem; text-decoration: none;">Ver Todos &rarr;</a>
+            </div>
+            <div class="list-item">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div class="stat-icon bg-purple" style="width: 35px; height: 35px; font-size: 1rem;">🎮</div>
+                <div>
+                  <h4 style="font-size: 0.95rem;">NX Cloud Starter</h4>
+                  <p style="color: var(--text-muted); font-size: 0.75rem;">Shared Hosting - nextgenweb.co</p>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 15px;">
+                <span class="badge badge-active">Ativo</span>
+                <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.8rem;">Gerenciar</button>
+              </div>
+            </div>
+            <div class="list-item">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div class="stat-icon bg-blue" style="width: 35px; height: 35px; font-size: 1rem;">🖥️</div>
+                <div>
+                  <h4 style="font-size: 0.95rem;">VPS Pro 2GB</h4>
+                  <p style="color: var(--text-muted); font-size: 0.75rem;">Virtual Private Server - srv-01.nexhost.io</p>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 15px;">
+                <span class="badge badge-active">Ativo</span>
+                <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.8rem;">Gerenciar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Últimas Faturas -->
+          <div class="panel-box">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <h3>Faturas Recentes</h3>
+              <a href="#" style="color: #a78bfa; font-size: 0.85rem; text-decoration: none;">Ver Todas &rarr;</a>
+            </div>
+            <div class="list-item">
+              <div>
+                <h4 style="font-size: 0.95rem;">#INV-10045</h4>
+                <p style="color: var(--text-muted); font-size: 0.75rem;">1 de Março, 2025</p>
+              </div>
+              <div style="display: flex; align-items: center; gap: 15px;">
+                <span class="badge badge-active">Pago</span>
+                <span style="font-size: 0.9rem; font-weight: 600;">$9.99 USD</span>
+              </div>
+            </div>
+            <div class="list-item">
+              <div>
+                <h4 style="font-size: 0.95rem;">#INV-10043</h4>
+                <p style="color: var(--text-muted); font-size: 0.75rem;">1 de Janeiro, 2025</p>
+              </div>
+              <div style="display: flex; align-items: center; gap: 15px;">
+                <span class="badge badge-unpaid">Não Pago</span>
+                <span style="font-size: 0.9rem; font-weight: 600;">$29.99 USD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Direita -->
+        <div>
+          <!-- Resumo da Conta -->
+          <div class="panel-box">
+            <h3>Resumo da Conta</h3>
+            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+              <div class="avatar">JD</div>
+              <div>
+                <h4>John Doe</h4>
+                <p style="color: var(--text-muted); font-size: 0.75rem;">john@example.com</p>
+              </div>
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 10px;">
+              <div style="display: flex; justify-content: space-between;"><span>Client #:</span> <span style="color: white;">NEX-102334</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>Registro:</span> <span style="color: white;">15 Jan, 2024</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>Método:</span> <span style="color: white;">Visa **** 4242</span></div>
+            </div>
+          </div>
+
+          <!-- Precisa de Ajuda? -->
+          <div class="panel-box" style="text-align: center;">
+            <div style="font-size: 2rem; margin-bottom: 10px;">📖</div>
+            <h3 style="border: none; margin-bottom: 5px;">Precisa de Ajuda?</h3>
+            <p style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 15px;">Nosso time está aqui 24/7 para ajudar.</p>
+            <button class="btn btn-primary" style="width: 100%; margin-bottom: 10px;">Abrir um Ticket</button>
+            <button class="btn btn-outline" style="width: 100%;">Base de Conhecimento</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

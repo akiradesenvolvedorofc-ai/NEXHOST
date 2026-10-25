@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>NEXHOST - Modpack Installer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar Simplificada -->
+  <header class="navbar" style="padding: 15px 5%;">
+    <div class="logo" style="font-size: 1.2rem; font-weight: 800;"><span style="color: #7c3aed;">N</span>EXHOST</div>
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <span style="color: var(--text-muted); font-size: 0.9rem;">AlexR</span>
+      <div class="avatar" style="width: 30px; height: 30px; font-size: 0.8rem;">A</div>
+    </div>
+  </header>
+
+  <div class="dashboard-layout">
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+      <div style="padding: 0 20px 20px;">
+        <p style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 10px;">Nebula SMP</p>
+        <span class="badge badge-active">● Online</span>
+      </div>
+      <ul class="sidebar-menu">
+        <li><a href="#">🏠 Overview</a></li>
+        <li><a href="#">💻 Console</a></li>
+        <li><a href="#">📁 Files</a></li>
+        <li><a href="#">🗄️ Databases</a></li>
+        <li><a href="#" class="active">🧩 Modpacks</a></li>
+        <li><a href="#">🔌 Plugins</a></li>
+        <li><a href="#">⚙️ Settings</a></li>
+      </ul>
+    </aside>
+
+    <!-- Conteúdo Modpacks -->
+    <main class="main-content">
+      <h1 style="font-size: 2rem; margin-bottom: 10px;">Modpack Installer</h1>
+      <p style="color: var(--text-muted); margin-bottom: 30px;">Descubra e instale os melhores modpacks de Minecraft com um clique.</p>
+
+      <input type="text" class="search-bar" placeholder="🔍 Pesquisar modpacks...">
+
+      <div class="modpacks-grid">
+        <!-- Modpack 1 -->
+        <div class="modpack-card">
+          <img src="https://images.unsplash.com/photo-1607513746994-51f730a44832?auto=format&fit=crop&w=400&q=80" class="modpack-img">
+          <div class="modpack-info">
+            <h3>All the Mods 9</h3>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">O ultimate kitchen-sink modpack com centenas de mods.</p>
+            <div class="tags"><span class="tag">Tech</span><span class="tag">Magic</span><span class="tag">Exploration</span></div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">⬇ 4.2M</span>
+              <button class="btn btn-primary" style="padding: 8px 20px; font-size: 0.85rem;">Instalar</button>
+            </div>
+          </div>
+        </div>
+        <!-- Modpack 2 -->
+        <div class="modpack-card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80" class="modpack-img">
+          <div class="modpack-info">
+            <h3>Better MC [FORGE]</h3>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">Um modpack belamente balanceado que expande o vanilla.</p>
+            <div class="tags"><span class="tag">Adventure</span><span class="tag">World Gen</span></div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">⬇ 2.8M</span>
+              <button class="btn btn-primary" style="padding: 8px 20px; font-size: 0.85rem;">Instalar</button>
+            </div>
+          </div>
+        </div>
+        <!-- Modpack 3 -->
+        <div class="modpack-card">
+          <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=400&q=80" class="modpack-img">
+          <div class="modpack-info">
+            <h3>SkyFactory 4</h3>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 5px;">A clássica experiência de skyblock reinventada.</p>
+            <div class="tags"><span class="tag">Skyblock</span><span class="tag">Tech</span><span class="tag">Automation</span></div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px;">
+              <span style="font-size: 0.8rem; color: var(--text-muted);">⬇ 3.1M</span>
+              <button class="btn btn-primary" style="padding: 8px 20px; font-size: 0.85rem;">Instalar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
