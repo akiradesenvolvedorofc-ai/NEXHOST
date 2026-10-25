@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>NEXHOST - Hospedagem de Jogos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar (igual à home) -->
+  <header class="navbar">
+    <div class="logo" style="font-size: 1.5rem; font-weight: 800;"><span style="color: #7c3aed;">N</span>EXHOST</div>
+    <nav><a href="#">Início</a><a href="#" class="active">Jogos</a><a href="#">Preços</a><a href="#">Suporte</a></nav>
+    <button class="btn btn-primary">Login</button>
+  </header>
+
+  <div style="padding: 120px 5% 40px; max-width: 1200px; margin: 0 auto;">
+    <h1 style="font-size: 3rem; margin-bottom: 10px;">Game Server <span class="text-gradient">Hosting</span></h1>
+    <p style="color: var(--text-muted); margin-bottom: 30px;">Servidores de alta performance para todos os mundos. Configuração instantânea.</p>
+    
+    <input type="text" class="search-bar" placeholder="🔍 Pesquise por um jogo (ex: Minecraft, Rust, Palworld...)">
+    
+    <!-- Filtros -->
+    <div class="filter-tabs">
+      <div class="filter-tab active">Todos os Jogos</div>
+      <div class="filter-tab">Sobrevivência</div>
+      <div class="filter-tab">Sandbox</div>
+      <div class="filter-tab">Ação</div>
+      <div class="filter-tab">RPG</div>
+      <div class="filter-tab">Estratégia</div>
+    </div>
+
+    <!-- Grid de Jogos -->
+    <div class="games-grid">
+      <!-- Card 1 -->
+      <div class="game-card">
+        <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&w=400&q=80" class="game-img">
+        <div class="game-info">
+          <h3>Minecraft</h3>
+          <p>Construa. Explore. Sobreviva.</p>
+          <div class="tags"><span class="tag">Java & Bedrock</span><span class="tag">Modpacks</span><span class="tag">Proteção DDoS</span></div>
+          <button class="btn btn-primary" style="width: 100%;">Ver Planos &rarr;</button>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="game-card">
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=400&q=80" class="game-img">
+        <div class="game-info">
+          <h3>Rust</h3>
+          <p>Sobreviva aos mundos mais difíceis.</p>
+          <div class="tags"><span class="tag">Oxide / uMod</span><span class="tag">Plugins</span><span class="tag">Proteção DDoS</span></div>
+          <button class="btn btn-primary" style="width: 100%;">Ver Planos &rarr;</button>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="game-card">
+        <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=400&q=80" class="game-img">
+        <div class="game-info">
+          <h3>Palworld</h3>
+          <p>Capture. Construa. Sobreviva. Juntos.</p>
+          <div class="tags"><span class="tag">Crossplay</span><span class="tag">Modpacks</span><span class="tag">Proteção DDoS</span></div>
+          <button class="btn btn-primary" style="width: 100%;">Ver Planos &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
